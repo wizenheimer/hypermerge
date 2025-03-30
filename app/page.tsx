@@ -1,5 +1,3 @@
-'use client';
-
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Features from './components/Features';
