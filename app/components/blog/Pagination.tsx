@@ -9,14 +9,13 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
     if (totalPages <= 1) return null;
 
     return (
-        <div className="flex justify-center items-center gap-4 mt-12" data-oid=".rfyrf-">
+        <div className="flex justify-center items-center gap-4 mt-12">
             {/* Previous Page */}
             {currentPage > 1 && (
                 <Link
                     href={`/blog?page=${currentPage - 1}`}
                     className="w-8 h-8 flex items-center justify-center rounded-md border border-gray-200 text-[var(--font-color)] hover:bg-[var(--background-hover)] transition-colors"
                     aria-label="Previous page"
-                    data-oid="im_6xg7"
                 >
                     <svg
                         stroke="currentColor"
@@ -25,18 +24,14 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
                         viewBox="0 0 256 256"
                         className="h-4 w-4"
                         xmlns="http://www.w3.org/2000/svg"
-                        data-oid="kytw6xn"
                     >
-                        <path
-                            d="M34.34,133.66l72,72a8,8,0,0,0,11.32-11.32L59.31,136H216a8,8,0,0,0,0-16H59.31L117.66,61.66a8,8,0,0,0-11.32-11.32l-72,72A8,8,0,0,0,34.34,133.66Z"
-                            data-oid="6v7jc6m"
-                        ></path>
+                        <path d="M34.34,133.66l72,72a8,8,0,0,0,11.32-11.32L59.31,136H216a8,8,0,0,0,0-16H59.31L117.66,61.66a8,8,0,0,0-11.32-11.32l-72,72A8,8,0,0,0,34.34,133.66Z"></path>
                     </svg>
                 </Link>
             )}
 
             {/* Page Numbers */}
-            <div className="flex items-center gap-1" data-oid="7t-50tt">
+            <div className="flex items-center gap-1">
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
                     <Link
                         key={page}
@@ -46,7 +41,6 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
                                 ? 'bg-black text-white'
                                 : 'bg-white text-[var(--font-color)] border border-gray-200 hover:bg-[var(--background-hover)]'
                         } transition-colors`}
-                        data-oid="_z6afvo"
                     >
                         {page}
                     </Link>
@@ -59,7 +53,6 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
                     href={`/blog?page=${currentPage + 1}`}
                     className="w-8 h-8 flex items-center justify-center rounded-md border border-gray-200 text-[var(--font-color)] hover:bg-[var(--background-hover)] transition-colors"
                     aria-label="Next page"
-                    data-oid="lu.jm12"
                 >
                     <svg
                         stroke="currentColor"
@@ -68,12 +61,8 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
                         viewBox="0 0 256 256"
                         className="h-4 w-4"
                         xmlns="http://www.w3.org/2000/svg"
-                        data-oid="nwo_6ln"
                     >
-                        <path
-                            d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
-                            data-oid="1a0:ri-"
-                        ></path>
+                        <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
                     </svg>
                 </Link>
             )}

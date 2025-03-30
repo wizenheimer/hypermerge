@@ -20,31 +20,24 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
     const { posts, totalPages } = await getAllPosts(currentPage);
 
     return (
-        <div className="min-h-screen flex flex-col" data-oid="9brfngo">
-            <Navigation data-oid="hdk4_y:" />
-            <main className="flex-1" data-oid="vs8x3tc">
-                <section className="py-16 md:py-24 px-6 md:px-12 scroll-mt-20" data-oid="af3ox1u">
-                    <div className="max-w-7xl mx-auto" data-oid="pnlfy.s">
-                        <BlogHeader data-oid="apq:xfp" />
+        <div className="min-h-screen flex flex-col">
+            <Navigation />
+            <main className="flex-1">
+                <section className="py-16 md:py-24 px-6 md:px-12 scroll-mt-20">
+                    <div className="max-w-7xl mx-auto">
+                        <BlogHeader />
 
-                        <div
-                            className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
-                            data-oid="83f.5yi"
-                        >
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             {posts.map((post) => (
-                                <BlogCard key={post.slug} post={post} data-oid="01q0sdk" />
+                                <BlogCard key={post.slug} post={post} />
                             ))}
                         </div>
 
-                        <Pagination
-                            currentPage={currentPage}
-                            totalPages={totalPages}
-                            data-oid="h9_iywa"
-                        />
+                        <Pagination currentPage={currentPage} totalPages={totalPages} />
                     </div>
                 </section>
             </main>
-            <Footer data-oid="jgbqljk" />
+            <Footer />
         </div>
     );
 }

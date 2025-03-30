@@ -36,15 +36,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     }
 
     return (
-        <div className="w-full min-h-screen bg-white flex flex-col" data-oid="dqv8s.w">
-            <Navigation data-oid="zaknpiz" />
-            <main className="flex-grow" data-oid="jbvcv2s">
-                <article className="container mx-auto px-4 py-16 max-w-4xl" data-oid="w.h62-y">
-                    <div className="flex justify-between items-center mb-8" data-oid="93oz0jn">
+        <div className="w-full min-h-screen bg-white flex flex-col">
+            <Navigation />
+            <main className="flex-grow">
+                <article className="container mx-auto px-4 py-16 max-w-4xl">
+                    <div className="flex justify-between items-center mb-8">
                         <Link
                             href="/blog"
                             className="inline-flex items-center text-gray-600 hover:text-primary"
-                            data-oid="8.13v9z"
                         >
                             <svg
                                 className="w-4 h-4 mr-2"
@@ -52,40 +51,36 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
-                                data-oid="k68z0su"
                             >
                                 <path
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                     strokeWidth={2}
                                     d="M15 19l-7-7 7-7"
-                                    data-oid="-pm4-8o"
                                 />
                             </svg>
                             Back to Blog
                         </Link>
                     </div>
-                    <header className="mb-12" data-oid="mnbd0zy">
-                        <h1 className="text-5xl font-bold mb-6" data-oid="fnmmoxx">
-                            {post.title}
-                        </h1>
-                        <div className="flex items-center text-gray-600" data-oid="082z3.t">
-                            <time className="mr-6" data-oid="bykwliw">
+                    <header className="mb-12">
+                        <h1 className="text-5xl font-bold mb-6">{post.title}</h1>
+                        <div className="flex items-center text-gray-600">
+                            <time className="mr-6">
                                 {new Date(post.date).toLocaleDateString('en-US', {
                                     month: 'short',
                                     day: 'numeric',
                                     year: 'numeric',
                                 })}
                             </time>
-                            <span data-oid="m.fcn4y">Posted by {post.author}</span>
+                            <span>Posted by {post.author}</span>
                         </div>
                     </header>
-                    <div className="prose prose-lg dark:prose-invert max-w-none" data-oid="64vnvc1">
-                        <MDXRemote source={post.content} data-oid="zcx4n0b" />
+                    <div className="prose prose-lg dark:prose-invert max-w-none">
+                        <MDXRemote source={post.content} />
                     </div>
                 </article>
             </main>
-            <Footer data-oid="c734bgf" />
+            <Footer />
         </div>
     );
 }
