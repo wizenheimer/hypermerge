@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 export default function TermsAndConditions() {
     return (
         <div className="min-h-screen bg-white" data-oid="583twqf">

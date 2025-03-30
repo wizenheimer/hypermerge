@@ -1,27 +1,21 @@
 'use client';
 
-import Image from 'next/image';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Integrations from './components/Integrations';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 export default function Page() {
     return (
-        <div
-            className="w-full min-h-screen flex items-center justify-center bg-white dark:bg-black transition-colors duration-200 flex-col p-4 gap-[32px]"
-            data-oid="aira6ev"
-        >
-            <div className="text-center text-gray-900 dark:text-gray-100 p-4" data-oid="4g9ksoy">
-                <h1
-                    className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight"
-                    data-oid="1:sjll8"
-                >
-                    Welcome to your new Onlook website
-                </h1>
-                <p
-                    className="text-xl md:text-2xl text-gray-800 dark:text-gray-300"
-                    data-oid="-2n:8h_"
-                >
-                    This is a blank template – Feel free to edit it!
-                </p>
-            </div>
+        <div className="w-full min-h-screen bg-white flex flex-col" data-oid="n-y-gfk">
+            <Navigation data-oid="gqg.xjb" />
+            <Hero data-oid="qjijw12" />
+            <Features data-oid="bk0b5fu" />
+            <Integrations data-oid="j:h4__." />
+            <Pricing data-oid="2b49qcc" />
+            <Footer data-oid="m::zf2g" />
         </div>
     );
 }
