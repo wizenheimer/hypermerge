@@ -12,6 +12,7 @@ export interface BlogPost {
   excerpt: string;
   author: string;
   content: string;
+  coverImage?: string; // Optional cover image for the blog post
 }
 
 export async function getAllPosts(page: number = 1): Promise<{ posts: BlogPost[]; totalPages: number }> {
