@@ -11,7 +11,7 @@ export default function Footer() {
                         <ul className="space-y-3">
                             <li>
                                 <Link
-                                    href="/features"
+                                    href="/#features"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     Features
@@ -19,7 +19,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="/pricing"
+                                    href="/#pricing"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     Pricing
@@ -65,7 +65,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="mailto:contact@hypermerge.com"
+                                    href="mailto:hey@hypermerge.dev"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     Contact

@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
                     <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
                     <p>
                         If you have any questions about this Privacy Policy or our data practices,
-                        please contact us at support@hypermerge.com.
+                        please contact us at hey@hypermerge.dev.
                     </p>
 
                     <div className="mt-8 pt-8 border-t">
