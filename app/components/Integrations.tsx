@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const logos = [
-    { src: '/images/logos/github.svg', alt: 'GitHub Logo' },
-    { src: '/images/logos/gitlab.svg', alt: 'GitLab Logo' },
-    { src: '/images/logos/bitbucket.svg', alt: 'BitBucket Logo' },
-    { src: '/images/logos/linear.svg', alt: 'Linear Logo' },
-    { src: '/images/logos/clickup.svg', alt: 'ClickUp Logo' },
-    { src: '/images/logos/slack.svg', alt: 'Slack Logo' },
+    { src: '/images/logos/Github.svg', alt: 'GitHub Logo' },
+    { src: '/images/logos/Gitlab.svg', alt: 'GitLab Logo' },
+    { src: '/images/logos/BitBucket.svg', alt: 'BitBucket Logo' },
+    { src: '/images/logos/Linear.svg', alt: 'Linear Logo' },
+    { src: '/images/logos/Clickup.svg', alt: 'ClickUp Logo' },
+    { src: '/images/logos/Slack.svg', alt: 'Slack Logo' },
 ];
 
 function LogoCarousel() {
