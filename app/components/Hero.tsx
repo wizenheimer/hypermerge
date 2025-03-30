@@ -9,11 +9,9 @@ export default function Hero() {
                     <br />
                     <span className="text-gray-500">Without The Guesswork</span>
                 </h2>
-                <p className="text-lg md:text-xl mb-10 max-w-4xl mx-auto text-gray-600">
+                <p className="text-lg md:text-xl mb-10 mt-4 max-w-4xl mx-auto text-gray-600">
                     Identify your highest-ROI engineering efforts. Spot blockers before they derail
                     your sprint.
-                    <br className="hidden md:block" />
-                    Eliminate guesswork from engineering management.
                 </p>
                 <div className="flex flex-wrap justify-center gap-6">
                     <button className="bg-white text-black border border-gray-300 px-6 py-2.5 rounded-md font-medium hover:bg-gray-50 transition-colors">
