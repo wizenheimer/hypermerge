@@ -5,9 +5,8 @@ export default function Hero() {
         <main className="flex-1 flex flex-col items-center justify-center px-6 md:px-12 py-16 md:py-24 space-y-16 md:space-y-24">
             <div className="text-center max-w-4xl mx-auto">
                 <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                    Engineering Management
-                    <br />
-                    <span className="text-gray-500">Without The Guesswork</span>
+                    <span className="block">Engineering Management</span>
+                    <span className="block text-gray-500 mt-2">Without The Guesswork</span>
                 </h2>
                 <p className="text-lg md:text-xl mb-10 mt-4 max-w-4xl mx-auto text-gray-600">
                     Identify your highest-ROI engineering efforts. Spot blockers before they derail
