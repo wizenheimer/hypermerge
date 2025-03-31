@@ -1,10 +1,17 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export const viewport: Viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+};
+
 export const metadata: Metadata = {
+    metadataBase: new URL('https://hypermerge.com'),
     title: 'HyperMerge',
     description: 'Engineering Management Without The Guesswork',
     openGraph: {
@@ -27,11 +34,6 @@ export const metadata: Metadata = {
         title: 'HyperMerge',
         description: 'Engineering Management Without The Guesswork',
         images: ['/og-image.png'], // Same image as OpenGraph
-    },
-    viewport: {
-        width: 'device-width',
-        initialScale: 1,
-        maximumScale: 1,
     },
     robots: {
         index: true,
