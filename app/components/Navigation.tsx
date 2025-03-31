@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Navigation() {
     return (
-        <header className="sticky top-0 z-50 w-full py-4 px-6 md:px-12 flex justify-between items-center bg-white/80 backdrop-blur-md border-b border-gray-200/50">
+        <header className="sticky top-0 z-50 w-full py-4 px-6 md:px-12 flex justify-between items-center bg-white/80 backdrop-blur-md">
             <Link href="/" className="font-bold text-xl hover:text-gray-600 transition-colors">
                 Hypermerge
             </Link>
