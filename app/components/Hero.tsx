@@ -13,12 +13,20 @@ export default function Hero() {
                     your sprint.
                 </p>
                 <div className="flex flex-wrap justify-center gap-6">
-                    <button className="bg-white text-black border border-gray-300 px-6 py-2.5 rounded-md font-medium hover:bg-gray-50 transition-colors">
-                        View Demo
-                    </button>
-                    <button className="bg-black text-white px-6 py-2.5 rounded-md font-medium hover:bg-gray-800 transition-colors">
-                        Get Started
-                    </button>
+                    <a href="https://demo.hypermerge.dev" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-white text-black border border-gray-300 px-6 py-2.5 rounded-md font-medium hover:bg-gray-50 transition-colors">
+                            View Demo
+                        </button>
+                    </a>
+                    <a
+                        href="https://cal.com/nayann/hypermerge"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-black text-white px-6 py-2.5 rounded-md font-medium hover:bg-gray-800 transition-colors">
+                            Get Started
+                        </button>
+                    </a>
                 </div>
             </div>
 
