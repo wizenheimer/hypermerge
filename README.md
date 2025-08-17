@@ -25,23 +25,23 @@ Hypermerge provides visibility into your engineering workflow with data-informed
 
 ## Features
 
--   **Engineering Metrics Dashboard**: Track cycle time, coding time, review time and other key performance indicators
--   **Blocker Detection**: Identify issues before they derail your sprint
--   **Resource Allocation Insights**: Visualize where your engineering time is being spent
--   **DORA Metrics**: Industry-standard delivery performance measurements
--   **Sprint Management Tools**: Make every sprint count with data-driven planning
--   **Outcome Tracking**: Drive outcomes, not just output
+- **Engineering Metrics Dashboard**: Track cycle time, coding time, review time and other key performance indicators
+- **Blocker Detection**: Identify issues before they derail your sprint
+- **Resource Allocation Insights**: Visualize where your engineering time is being spent
+- **DORA Metrics**: Industry-standard delivery performance measurements
+- **Sprint Management Tools**: Make every sprint count with data-driven planning
+- **Outcome Tracking**: Drive outcomes, not just output
 
 ## Integrations
 
 Hypermerge works seamlessly with your existing tools:
 
--   GitHub
--   GitLab
--   BitBucket
--   Linear
--   ClickUp
--   Slack
+- GitHub
+- GitLab
+- BitBucket
+- Linear
+- ClickUp
+- Slack
 
 ## Use Cases
 
