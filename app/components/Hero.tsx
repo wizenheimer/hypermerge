@@ -19,13 +19,15 @@ export default function Hero() {
                             View Demo
                         </button>
                     </a>
-                    <ContactDialog
-                        trigger={
-                            <button className="bg-black text-white px-6 py-2.5 rounded-md font-medium hover:bg-gray-800 transition-colors">
-                                Get Started
-                            </button>
-                        }
-                    />
+                    <a
+                        href="https://cal.com/nayann/hypermerge"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-black text-white px-6 py-2.5 rounded-md font-medium hover:bg-gray-800 transition-colors">
+                            Get Started
+                        </button>
+                    </a>
                 </div>
             </div>
 

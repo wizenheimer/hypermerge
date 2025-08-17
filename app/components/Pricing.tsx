@@ -73,15 +73,18 @@ function PricingPlan({
                     <PricingFeature key={index} {...feature} />
                 ))}
             </ul>
-            <button
+            <a
+                href="https://cal.com/nayann/hypermerge"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`w-full ${
                     isPopular
                         ? 'bg-white text-black hover:bg-gray-100'
                         : 'bg-white text-black border border-gray-300 hover:bg-gray-50'
-                } px-6 py-2.5 rounded-md font-medium transition-colors`}
+                } px-6 py-2.5 rounded-md font-medium transition-colors inline-flex items-center justify-center`}
             >
                 {ctaText}
-            </button>
+            </a>
         </div>
     );
 }

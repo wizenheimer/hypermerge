@@ -41,12 +41,14 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link
-                                    href="/docs"
+                                <a
+                                    href="https://cal.com/nayann/hypermerge"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     Docs
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -56,16 +58,20 @@ export default function Footer() {
                         <div className="text-sm font-medium">Hypermerge</div>
                         <ul className="space-y-3">
                             <li>
-                                <Link
-                                    href="/about"
+                                <a
+                                    href="https://cal.com/nayann/hypermerge"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     About
-                                </Link>
+                                </a>
                             </li>
                             <li>
                                 <a
-                                    href="mailto:hey@hypermerge.dev"
+                                    href="https://cal.com/nayann/hypermerge"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="text-sm text-zinc-400 hover:text-white transition-colors"
                                 >
                                     Contact
